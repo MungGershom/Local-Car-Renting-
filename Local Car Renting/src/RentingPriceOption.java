@@ -3,6 +3,9 @@ public class RentingPriceOption {
 	
 	Double priceOption;
 	Double disCount;
+	String update;
+	
+	
 	
 	public RentingPriceOption (Double priceOption,Double disCount) {
         super( );
@@ -20,11 +23,19 @@ public class RentingPriceOption {
 	    return disCount;
 	}
 	
-	public void setDiscount(String address) {
-		this.disCount = disCount;
+	public void setDiscount(Double disCount) {
+		this.disCount = ;
 	}
-	public void displayPriceOption(){
+	
+	public String getUpdate(String update ) {
+	    return update;
+	}
+	
+	public void setSetupdate(String update) {
+		this.update;
+	}
 		
+	public void displayPriceOption(){
 		
 		System.out.println();
 		System.out.println(".....PRICE OPTION.....");
@@ -35,6 +46,9 @@ public class RentingPriceOption {
 		System.out.println("If you are renting one week,you get 25% discount");
 		System.out.println("If You are renting more than 5 hours, you get 25% discount");
 		System.out.println();
+		System.out.println(" The information updates will show up everytime.Please Check every day");
+		
+		
 		
 		
 	}
