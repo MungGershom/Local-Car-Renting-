@@ -12,7 +12,6 @@ public class CustomerInfo {
 		this.dateRent = dateRent;
 	}
 	
-	
 	public String getFullName() {
 		return fullName;
 	}
@@ -33,7 +32,6 @@ public class CustomerInfo {
 	public void setdateRent(String address) {
 		this.dateRent = dateRent;
 	}
-	
 	public void displayCustomerInfo(){
 		
 		System.out.println("...CUSTOMER INFORMATION...");
